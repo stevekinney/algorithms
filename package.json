@@ -1,0 +1,15 @@
+{
+  "name": "algorithms",
+  "version": "0.0.0",
+  "description": "Fun times with data structures and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel/register"
+  },
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "mocha": "^2.2.5"
+  }
+}
