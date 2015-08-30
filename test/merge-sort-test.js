@@ -22,7 +22,12 @@ describe('mergeSort', () => {
   it('should sort an odd number of elements', () => {
     let sorted = mergeSort([7,6,5,4,3,2,1]);
     assert.deepEqual([1,2,3,4,5,6,7], sorted);
-  })
+  });
+
+  it('should sort an array with duplicate numbers', () => {
+    let sorted = mergeSort([3,2,2,1]);
+    assert.deepEqual([1,2,2,3], sorted);
+  });
 
 });
 
