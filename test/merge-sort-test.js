@@ -29,13 +29,10 @@ describe('mergeSort', () => {
     assert.deepEqual([1,2,2,3], sorted);
   });
 
-});
-
-describe('split', () => {
-
-  it('should return two arrays', () => {
-    let splitCollection = split([1,2,3,4]);
-    assert.deepEqual(splitCollection, [[1,2], [3,4]]);
+  describe('split', () => {
+    it('should return two arrays', () => {
+      let splitCollection = split([1,2,3,4]);
+      assert.deepEqual(splitCollection, [[1,2], [3,4]]);
+    });
   });
-
 });
